@@ -3,5 +3,6 @@ const chosenImage = images[Math.floor(Math.random() * images.length)]
 
 const bgImg = document.createElement("img")
 bgImg.src = `img/${chosenImage}`
+bgImg.classList.add("bgImg")
 
 document.body.appendChild(bgImg)
